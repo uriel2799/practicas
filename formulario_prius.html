@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Hibridos</title>
+</head>
+<body>
+    <form action="Pagina_Hibridos" method="get">
+        <label for="nombre">Nombre del carro hibrido</label>
+        <input type="text" id="nombre" name="nombre"> <br> <br>
+
+        <label for="tipo">Tipo</label>
+        <select name="tipo" id="tipo">
+            <option value="carro"> Carro</option>
+            <option value="camioneta">Camioneta</option>
+        </select> <br><br>
+        
+        <input type="checkbox" id="enchufables" name="enchufables">
+        <label for="enchufables">¿Es enchufable?</label>
+
+        <label>Hibrido</label>
+        <input type="radio" id="carro" name="hibrido" value="carro">
+        <label for="carro"> Carro</label>
+        <input type="radio" id="camioneta" name="hibrido" value="camioneta">
+        <label for="camioneta"> Camioneta</label>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>

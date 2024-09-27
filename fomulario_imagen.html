@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Hibrido con Imagen</title>
+</head>
+<body>
+    <form action="resultados_hibrido.html" method="get" enctype="multipart/form-data">
+        <label for="nombre"> Nombre del carro hibrido</label>
+        <input type="text" id="nombre" name="nombre"> <br> <br>
+
+        <label for="tipo">Tipo:</label>
+        <select name="tipo" id="tipo">
+            <option value="carro"></option>
+            <option value="camioneta"></option>
+        </select><br><br>
+
+        <label for="Imagen">Subir Imagen</label>
+        <input type="file" id="Imagen" name="Imagen"><br><br>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
