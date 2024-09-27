@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario registro de carro hibrido</title>
+    <style>
+        form{
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: lightslategray;
+        }
+        label{
+            font-weight: bold;
+        }
+        input, select{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input [type="submit"]{
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Registro de Vehiculos</h1>
+    <form >
+        <label for="Nombre">Nombre de los vehiculos</label>
+        <input type="text" name="Nombre" id="Nombre">
+
+        <label for="tipo">Tipo de vehiculos</label>
+        <select name="tipo" id="tipo">
+            <option value="carro"> carro</option>
+            <option value="camioneta">camioneta</option>
+        </select>
+        
+        <label for="es enchufable">¿Es enchufable?</label>
+        <input type="checkbox" id="enchufable" name="enchufable"> Si
+
+        <label >Tipo</label>
+        <input type="radio" id="camioneta" name="tipo" value="camioneta">
+        <input type="radio" id="carro" name="tipo" value="carro">
+        
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
